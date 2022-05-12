@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 10px 30px 50px 40px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.you .mark {
+    background-color: rgb(134, 247, 219);
+    margin: 15px 13px 20px 13px;
+    border: 2px solid rgb(103, 247, 199);
+    border-radius: 2px;
+    box-shadow: 2px 3px 1px rgb(184, 248, 227);
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.box .checkmark {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.fa-solid {
+    color: #fff;
+    /* display: block; */
+    padding: 2px 2px 2px 2px;
+}
+
+.Unsubscribe {
+    margin: auto;
+    color: green;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+.Unsubscribe h1 {
+    font-size: 14px;
+    font-weight: 900px;
+    line-height: 25px;
+}
+
+.Unsubscribe p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.accident-resubscibe {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.accident-resubscibe h2 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.accident-resubscibe input {
+    padding: 5px;
+    margin-left: 5px;
+}
